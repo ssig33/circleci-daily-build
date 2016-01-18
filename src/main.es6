@@ -6,18 +6,7 @@ import ci from "./circleci-client";
 
 const debug = require("debug")("circleci-daily:main");
 
-const projects = [
-  {
-    username: "shokai",
-    project: "weather-yahoo-jp",
-    branch: "master"
-  },
-  {
-    username: "shokai",
-    project: "neoyokohama-bot",
-    branch: "master"
-  }
-];
+import projects from "../project-list.json";
 
 module.exports.handler = function(_event, _context){
   co(function *(){

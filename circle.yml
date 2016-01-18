@@ -1,6 +1,9 @@
 machine:
   node:
     version: 5.4
+dependencies:
+  post:
+    - cp sample.project-list.json project-list.json
 test:
   override:
     - npm run test

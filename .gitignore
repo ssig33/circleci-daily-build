@@ -6,4 +6,5 @@ node_modules/*
 dist/
 tmp/
 .env
+project-list.json
 bundle.zip

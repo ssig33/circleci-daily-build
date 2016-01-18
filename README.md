@@ -17,6 +17,13 @@ https://circleci.com/account/api
 edit `.env`
 
 
+### Projects
+
+    % cp sample.project-list.json project-list.json
+
+edit `project-list.json`
+
+
 ### Build
 
     % npm i
