@@ -2,14 +2,9 @@
 
 import "babel-polyfill";
 import co from "co";
-import CircleCI from "circleci";
+import ci from "./circleci-client";
 
 const debug = require("debug")("circleci-daily:main");
-require("dotenv").load({silent: true});
-
-const ci = new CircleCI({
-  auth: process.env.CIRCLECI_TOKEN
-});
 
 const projects = [
   {
