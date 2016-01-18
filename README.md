@@ -1,12 +1,14 @@
 # CircleCI Daily Build
-kick CircleCI rebuild everyday
+Kick CircleCI rebuild everyday
 
 - https://github.com/shokai/circleci-daily-build
 
 [![Circle CI](https://circleci.com/gh/shokai/circleci-daily-build.svg?style=svg)](https://circleci.com/gh/shokai/circleci-daily-build)
 
 
-## Get API Token
+## Setup
+
+### Get API Token
 
 https://circleci.com/account/api
 
@@ -15,25 +17,40 @@ https://circleci.com/account/api
 edit `.env`
 
 
-## Build
+### Build
 
     % npm i
     % npm run build
 
 
-## Test
+### Test
 
     % npm test
 
 
-## Upload `bundle.zip` to AWS Lambda
+## Run
+
+kick CircleCI from local machine.
+
+    % npm start
+
+dry-run
+
+    % DRY=true npm start
+
+
+## Deploy
+
+kick CircleCI from Lambda
+
+### Upload `bundle.zip` to AWS Lambda
 
     % npm run zip
 
 http://aws.amazon.com/jp/lambda/
 
 
-## Config Lambda
+### Config Lambda
 
 setup Scheduled Event
 
