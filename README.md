@@ -1,6 +1,9 @@
 # CircleCI Daily Build
+kick CircleCI rebuild everyday
 
 - https://github.com/shokai/circleci-daily-build
+
+[![Circle CI](https://circleci.com/gh/shokai/circleci-daily-build.svg?style=svg)](https://circleci.com/gh/shokai/circleci-daily-build)
 
 
 ## Get API Token
