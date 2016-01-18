@@ -4,6 +4,10 @@
   "version": "0.0.1",
   "description": "kick CircleCI rebuild everyday",
   "main": "index.js",
+  "engines": {
+    "node": "5.4.x",
+    "npm": "3.x"
+  },
   "scripts": {
     "start": "node run.js",
     "mocha": "mocha test/test_*.es6 --compilers js:babel-register",
