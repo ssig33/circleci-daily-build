@@ -1,6 +1,6 @@
 machine:
   node:
-    version: 5.4
+    version: 4.3
 dependencies:
   post:
     - cp sample.project-list.json project-list.json
