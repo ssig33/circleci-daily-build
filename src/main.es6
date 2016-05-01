@@ -1,4 +1,4 @@
-"use strict";
+/* eslint-disable no-console */
 
 import "babel-polyfill";
 import co from "co";

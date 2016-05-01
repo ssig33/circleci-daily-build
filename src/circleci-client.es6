@@ -1,5 +1,3 @@
-"use strict";
-
 import CircleCI from "circleci";
 require("dotenv").load({silent: true});
 

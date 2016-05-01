@@ -1,6 +1,5 @@
+/* eslint-disable no-console */
 /* global describe it */
-"use strict";
-
 import "./test_helper";
 import {assert} from "chai";
 
